@@ -41,31 +41,94 @@ a:hover{
 }
 
 section{
-	max-width: 1000px;
+	max-width: 675px;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 20px;
-	background-color: rgba(0,0,0,0.03);
-	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
+
 
 h1{
 	font-size: 3rem;
 	font-weight: 600;
-	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #29ABE2;
 }
 
 h2{
 	font-size: 1.5rem;
 	font-weight: 500;
 	margin-top: 0.2em;
+	color: #29ABE2;
 }
 
+
+
 h4{
-	margin-bottom: 0.1em;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	width: 100%;
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	font-size: 1.3rem;
+}
+
+ul{
+	padding-left: 0px
+}
+
+li{
+	margin: 1em;
+}
+
+input{
+	padding: 11px;
+	background-color: #333;
+	color: white;
+	border: none;
+	float: left;
 	font-size: 1rem;
 }
 
-p{
-	margin-top: 0px;
+input[type="submit"]{
+	background-color: #29ABE2;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: #2382AB;
+}
+
+.head{
+	text-align: center;
+}
+
+.signup{
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.signup p{
+	width: 50%;
+	margin: 0px;
+	float: left;
+}
+
+#mc_embed_signup_scroll{
+	overflow: hidden;
+	width: 50%;
+	float: left;
+}
+
+#mc-embedded-subscribe{
+	width: 30%;
+}
+
+#mce-EMAIL{
+	width: 70%;
 }
